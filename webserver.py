@@ -9,7 +9,7 @@ import json
 
 BASE_URL = 'http://access.alchemyapi.com/calls'
 ENDPOINT = '/image/ImageGetRankedImageKeywords'
-APIKEY = '1ee9b8a0277b2abc81e5bf0f6c458efcb2567940'
+APIKEY = '<YOUR API KEY>'
 PORT = int(os.getenv('VCAP_APP_PORT', 8080))
 
 class MainHandler(tornado.web.RequestHandler):
